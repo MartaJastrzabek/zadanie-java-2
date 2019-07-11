@@ -1,0 +1,21 @@
+Klasa zawiera definicjê pewnych cech i zachowañ danego typu elementów. Stanowi ona swojego rodzaju szablon dla powstaj¹cych na jej podstawie obiektów. Klasa sk³ada siê g³ównie z definicji zmiennych a tak¿e metod.
+
+Obiekt to instancja klasy. Jest konktretnym reprezentantem klasy, który do zmiennych zdefiniowanych przez klasê, ma przypisane konkretne wartoœci.
+
+Zmienna to element klasy, który umo¿liwia przechowywanie wartoœci. Wyró¿niamy zmienne typów podstawowych np. int, boolean oraz typów obiektowych.
+
+Ka¿da zmienna musi mieæ okreœlony typ, np. int, albo String.
+
+Je¿eli deklaracjê zmiennej poprzedzimy s³owem final, to wartoœæ przypisana do tej zmiennej nie mo¿e byæ zmieniana.
+
+W klasie mog¹ siê znajdowaæ zmienne, konstruktory i metody.
+
+Konstruktory s¹ wywo³ywane przez operator new i s³u¿¹ do tworzenia nowych obiektów.
+
+Jeœli w klasie zdefiniowano chocia¿ jeden konstruktor to kompilator nie wygeneruje dla nas konstruktora domyœlnego.
+
+Zak³adaj¹c, ¿e istnieje klasa Car, to przy zapisie:
+ 
+Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);  Car car2 = car1;
+
+car1 i car2 to dwie referencje wskazuj¹ce na ten sam obiekt.
