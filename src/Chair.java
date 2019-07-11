@@ -3,7 +3,10 @@ public class Chair {
     int legsNumber;
     boolean hasWheels;
 
-    Chair(){
+    Chair(String c, int ln, boolean hw){
+        color = c;
+        legsNumber = ln;
+        hasWheels = hw;
 
     }
 
